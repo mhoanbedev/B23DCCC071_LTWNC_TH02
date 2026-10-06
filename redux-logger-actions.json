@@ -1,0 +1,405 @@
+{
+  "capturedAt": "2026-10-06T08:41:01.234Z",
+  "evidence": {
+    "addAssignment": [
+      {
+        "type": "startGroup",
+        "args": [
+          "%c action %cassignments/addAssignment %c@ 15:41:00.606",
+          "color: gray; font-weight: lighter;",
+          "color: inherit;",
+          "color: gray; font-weight: lighter;"
+        ]
+      },
+      {
+        "type": "log",
+        "args": [
+          "%c prev state",
+          "color: #9E9E9E; font-weight: bold",
+          {
+            "assignments": {
+              "items": [
+                {
+                  "id": "demo-1",
+                  "title": "Ôn tập React Hooks",
+                  "subject": "Lịch sử",
+                  "dueDate": "2099-01-12",
+                  "completed": false
+                },
+                {
+                  "id": "demo-2",
+                  "title": "Bài tập đại số",
+                  "subject": "Toán",
+                  "dueDate": "2099-01-15",
+                  "completed": false
+                },
+                {
+                  "id": "demo-3",
+                  "title": "Đọc hiểu văn bản",
+                  "subject": "Ngữ văn",
+                  "dueDate": "2099-01-18",
+                  "completed": true
+                },
+                {
+                  "id": "demo-4",
+                  "title": "Từ vựng tiếng Anh",
+                  "subject": "Tiếng Anh",
+                  "dueDate": "2099-01-20",
+                  "completed": false
+                },
+                {
+                  "id": "demo-5",
+                  "title": "Hệ sinh thái",
+                  "subject": "Khoa học",
+                  "dueDate": "2099-01-22",
+                  "completed": false
+                }
+              ],
+              "status": "succeeded",
+              "error": null
+            }
+          }
+        ]
+      },
+      {
+        "type": "log",
+        "args": [
+          "%c action    ",
+          "color: #03A9F4; font-weight: bold",
+          {
+            "type": "assignments/addAssignment",
+            "payload": {
+              "id": "658c6a31-6a65-478d-9ee1-e85e8e8fdc54",
+              "title": "Logger evidence",
+              "subject": "Toán",
+              "dueDate": "2099-12-31",
+              "completed": false
+            }
+          }
+        ]
+      },
+      {
+        "type": "log",
+        "args": [
+          "%c next state",
+          "color: #4CAF50; font-weight: bold",
+          {
+            "assignments": {
+              "items": [
+                {
+                  "id": "demo-1",
+                  "title": "Ôn tập React Hooks",
+                  "subject": "Lịch sử",
+                  "dueDate": "2099-01-12",
+                  "completed": false
+                },
+                {
+                  "id": "demo-2",
+                  "title": "Bài tập đại số",
+                  "subject": "Toán",
+                  "dueDate": "2099-01-15",
+                  "completed": false
+                },
+                {
+                  "id": "demo-3",
+                  "title": "Đọc hiểu văn bản",
+                  "subject": "Ngữ văn",
+                  "dueDate": "2099-01-18",
+                  "completed": true
+                },
+                {
+                  "id": "demo-4",
+                  "title": "Từ vựng tiếng Anh",
+                  "subject": "Tiếng Anh",
+                  "dueDate": "2099-01-20",
+                  "completed": false
+                },
+                {
+                  "id": "demo-5",
+                  "title": "Hệ sinh thái",
+                  "subject": "Khoa học",
+                  "dueDate": "2099-01-22",
+                  "completed": false
+                },
+                {
+                  "id": "658c6a31-6a65-478d-9ee1-e85e8e8fdc54",
+                  "title": "Logger evidence",
+                  "subject": "Toán",
+                  "dueDate": "2099-12-31",
+                  "completed": false
+                }
+              ],
+              "status": "succeeded",
+              "error": null
+            }
+          }
+        ]
+      }
+    ],
+    "toggleCompleted": [
+      {
+        "type": "startGroup",
+        "args": [
+          "%c action %cassignments/toggleCompleted %c@ 15:41:00.770",
+          "color: gray; font-weight: lighter;",
+          "color: inherit;",
+          "color: gray; font-weight: lighter;"
+        ]
+      },
+      {
+        "type": "log",
+        "args": [
+          "%c prev state",
+          "color: #9E9E9E; font-weight: bold",
+          {
+            "assignments": {
+              "items": [
+                {
+                  "id": "demo-1",
+                  "title": "Ôn tập React Hooks",
+                  "subject": "Lịch sử",
+                  "dueDate": "2099-01-12",
+                  "completed": false
+                },
+                {
+                  "id": "demo-2",
+                  "title": "Bài tập đại số",
+                  "subject": "Toán",
+                  "dueDate": "2099-01-15",
+                  "completed": false
+                },
+                {
+                  "id": "demo-3",
+                  "title": "Đọc hiểu văn bản",
+                  "subject": "Ngữ văn",
+                  "dueDate": "2099-01-18",
+                  "completed": true
+                },
+                {
+                  "id": "demo-4",
+                  "title": "Từ vựng tiếng Anh",
+                  "subject": "Tiếng Anh",
+                  "dueDate": "2099-01-20",
+                  "completed": false
+                },
+                {
+                  "id": "demo-5",
+                  "title": "Hệ sinh thái",
+                  "subject": "Khoa học",
+                  "dueDate": "2099-01-22",
+                  "completed": false
+                },
+                {
+                  "id": "658c6a31-6a65-478d-9ee1-e85e8e8fdc54",
+                  "title": "Logger evidence",
+                  "subject": "Toán",
+                  "dueDate": "2099-12-31",
+                  "completed": false
+                }
+              ],
+              "status": "succeeded",
+              "error": null
+            }
+          }
+        ]
+      },
+      {
+        "type": "log",
+        "args": [
+          "%c action    ",
+          "color: #03A9F4; font-weight: bold",
+          {
+            "type": "assignments/toggleCompleted",
+            "payload": "658c6a31-6a65-478d-9ee1-e85e8e8fdc54"
+          }
+        ]
+      },
+      {
+        "type": "log",
+        "args": [
+          "%c next state",
+          "color: #4CAF50; font-weight: bold",
+          {
+            "assignments": {
+              "items": [
+                {
+                  "id": "demo-1",
+                  "title": "Ôn tập React Hooks",
+                  "subject": "Lịch sử",
+                  "dueDate": "2099-01-12",
+                  "completed": false
+                },
+                {
+                  "id": "demo-2",
+                  "title": "Bài tập đại số",
+                  "subject": "Toán",
+                  "dueDate": "2099-01-15",
+                  "completed": false
+                },
+                {
+                  "id": "demo-3",
+                  "title": "Đọc hiểu văn bản",
+                  "subject": "Ngữ văn",
+                  "dueDate": "2099-01-18",
+                  "completed": true
+                },
+                {
+                  "id": "demo-4",
+                  "title": "Từ vựng tiếng Anh",
+                  "subject": "Tiếng Anh",
+                  "dueDate": "2099-01-20",
+                  "completed": false
+                },
+                {
+                  "id": "demo-5",
+                  "title": "Hệ sinh thái",
+                  "subject": "Khoa học",
+                  "dueDate": "2099-01-22",
+                  "completed": false
+                },
+                {
+                  "id": "658c6a31-6a65-478d-9ee1-e85e8e8fdc54",
+                  "title": "Logger evidence",
+                  "subject": "Toán",
+                  "dueDate": "2099-12-31",
+                  "completed": true
+                }
+              ],
+              "status": "succeeded",
+              "error": null
+            }
+          }
+        ]
+      }
+    ],
+    "removeAssignment": [
+      {
+        "type": "startGroup",
+        "args": [
+          "%c action %cassignments/removeAssignment %c@ 15:41:00.878",
+          "color: gray; font-weight: lighter;",
+          "color: inherit;",
+          "color: gray; font-weight: lighter;"
+        ]
+      },
+      {
+        "type": "log",
+        "args": [
+          "%c prev state",
+          "color: #9E9E9E; font-weight: bold",
+          {
+            "assignments": {
+              "items": [
+                {
+                  "id": "demo-1",
+                  "title": "Ôn tập React Hooks",
+                  "subject": "Lịch sử",
+                  "dueDate": "2099-01-12",
+                  "completed": false
+                },
+                {
+                  "id": "demo-2",
+                  "title": "Bài tập đại số",
+                  "subject": "Toán",
+                  "dueDate": "2099-01-15",
+                  "completed": false
+                },
+                {
+                  "id": "demo-3",
+                  "title": "Đọc hiểu văn bản",
+                  "subject": "Ngữ văn",
+                  "dueDate": "2099-01-18",
+                  "completed": true
+                },
+                {
+                  "id": "demo-4",
+                  "title": "Từ vựng tiếng Anh",
+                  "subject": "Tiếng Anh",
+                  "dueDate": "2099-01-20",
+                  "completed": false
+                },
+                {
+                  "id": "demo-5",
+                  "title": "Hệ sinh thái",
+                  "subject": "Khoa học",
+                  "dueDate": "2099-01-22",
+                  "completed": false
+                },
+                {
+                  "id": "658c6a31-6a65-478d-9ee1-e85e8e8fdc54",
+                  "title": "Logger evidence",
+                  "subject": "Toán",
+                  "dueDate": "2099-12-31",
+                  "completed": true
+                }
+              ],
+              "status": "succeeded",
+              "error": null
+            }
+          }
+        ]
+      },
+      {
+        "type": "log",
+        "args": [
+          "%c action    ",
+          "color: #03A9F4; font-weight: bold",
+          {
+            "type": "assignments/removeAssignment",
+            "payload": "658c6a31-6a65-478d-9ee1-e85e8e8fdc54"
+          }
+        ]
+      },
+      {
+        "type": "log",
+        "args": [
+          "%c next state",
+          "color: #4CAF50; font-weight: bold",
+          {
+            "assignments": {
+              "items": [
+                {
+                  "id": "demo-1",
+                  "title": "Ôn tập React Hooks",
+                  "subject": "Lịch sử",
+                  "dueDate": "2099-01-12",
+                  "completed": false
+                },
+                {
+                  "id": "demo-2",
+                  "title": "Bài tập đại số",
+                  "subject": "Toán",
+                  "dueDate": "2099-01-15",
+                  "completed": false
+                },
+                {
+                  "id": "demo-3",
+                  "title": "Đọc hiểu văn bản",
+                  "subject": "Ngữ văn",
+                  "dueDate": "2099-01-18",
+                  "completed": true
+                },
+                {
+                  "id": "demo-4",
+                  "title": "Từ vựng tiếng Anh",
+                  "subject": "Tiếng Anh",
+                  "dueDate": "2099-01-20",
+                  "completed": false
+                },
+                {
+                  "id": "demo-5",
+                  "title": "Hệ sinh thái",
+                  "subject": "Khoa học",
+                  "dueDate": "2099-01-22",
+                  "completed": false
+                }
+              ],
+              "status": "succeeded",
+              "error": null
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

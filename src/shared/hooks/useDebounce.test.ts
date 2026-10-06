@@ -1,0 +1,2 @@
+import { renderHook, act } from '@testing-library/react'; import { useDebounce } from './useDebounce';
+test('debounces a value by the provided delay', () => { jest.useFakeTimers(); const { result, rerender } = renderHook(({ value }) => useDebounce(value, 300), { initialProps: { value: 'a' } }); rerender({ value: 'b' }); expect(result.current).toBe('a'); act(() => jest.advanceTimersByTime(300)); expect(result.current).toBe('b'); jest.useRealTimers(); });

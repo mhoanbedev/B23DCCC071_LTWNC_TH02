@@ -1,0 +1,18 @@
+{
+  "measuredAt": "2026-10-06T08:35:55.419Z",
+  "browser": "Chrome headless, React development build",
+  "baseline": {
+    "mode": "baseline",
+    "cardsInDom": 10000,
+    "assignmentCardRenderCallsAfterSearch": 40000,
+    "profilerCommitsAfterSearch": 20000,
+    "inputValue": "B"
+  },
+  "optimized": {
+    "mode": "optimized",
+    "cardsInDom": 9,
+    "assignmentCardRenderCallsAfterSearch": 0,
+    "profilerCommitsAfterSearch": 9,
+    "inputValue": "B"
+  }
+}

@@ -1,0 +1,2 @@
+import { render, screen } from '@testing-library/react'; import Statistics from './Statistics';
+test('shows completion, overdue and subject statistics', () => { render(<Statistics assignments={[{ id: '1', title: 'A', subject: 'Toán', dueDate: '2000-01-01', completed: false }, { id: '2', title: 'B', subject: 'Khoa học', dueDate: '2099-01-01', completed: true }]} />); expect(screen.getByText(/Tổng: 2/)).toBeInTheDocument(); expect(screen.getByText('Toán: 1')).toBeInTheDocument(); });

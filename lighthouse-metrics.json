@@ -1,0 +1,19 @@
+{
+  "measuredAt": "2026-10-06",
+  "environment": "Chrome 154, Lighthouse Desktop, Vite production preview, local machine",
+  "datasetSize": 10000,
+  "baseline": {
+    "performanceScore": 80,
+    "firstContentfulPaintSeconds": 0.3,
+    "largestContentfulPaintSeconds": 0.4,
+    "totalBlockingTimeMilliseconds": 460,
+    "domElements": 80050
+  },
+  "optimized": {
+    "performanceScore": 100,
+    "firstContentfulPaintSeconds": 0.3,
+    "largestContentfulPaintSeconds": 0.4,
+    "totalBlockingTimeMilliseconds": 0,
+    "domElements": 132
+  }
+}

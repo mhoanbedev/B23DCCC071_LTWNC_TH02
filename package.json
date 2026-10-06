@@ -1,0 +1,46 @@
+{
+  "name": "assignment-manager-performance",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "test": "jest --runInBand --coverage",
+    "test:watch": "jest --watch",
+    "lint": "tsc --noEmit",
+    "lighthouse:baseline": "lighthouse \"http://127.0.0.1:4173/?stress=1&benchmark=baseline\" --only-categories=performance --preset=desktop --chrome-path=\"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\" --output=html --output-path=./lighthouse-baseline.html",
+    "lighthouse:optimized": "lighthouse \"http://127.0.0.1:4173/?stress=1\" --only-categories=performance --preset=desktop --chrome-path=\"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\" --output=html --output-path=./lighthouse-optimized.html",
+    "profile:search": "node scripts/measure-card-renders.cjs",
+    "capture:logger": "node scripts/capture-redux-logger.cjs"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.2.7",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-redux": "^9.1.2",
+    "react-window": "^1.8.10",
+    "redux-logger": "^3.0.6",
+    "zustand": "^4.5.4"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.4.8",
+    "@testing-library/react": "^16.0.0",
+    "@testing-library/user-event": "^14.5.2",
+    "@types/jest": "^29.5.12",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@types/react-window": "^1.8.8",
+    "@vitejs/plugin-react": "^4.3.1",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "jest-junit": "^16.0.0",
+    "lighthouse": "^12.8.2",
+    "ts-jest": "^29.2.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4",
+    "vite": "^5.4.0",
+    "ws": "^8.22.0"
+  }
+}
